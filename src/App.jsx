@@ -1,6 +1,9 @@
 import './App.css'
-import DaisyNav from './components/daisyNav/DaisyNav'
+import LineCharts from './components/lineChart/LineCharts'
+// import DaisyNav from './components/daisyNav/DaisyNav'
 import Nav from './components/nav/Nav'
+import PriceLists from './components/nav/priceList/PriceLists'
+import Phones from './components/phones/Phones'
 
 function App() {
 
@@ -8,7 +11,10 @@ function App() {
   return (
     <>
     <Nav />
-    <DaisyNav />
+    {/* <DaisyNav /> */}
+    <PriceLists />
+    <LineCharts />
+    <Phones />
     </>
   )
 }
